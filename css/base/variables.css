@@ -1,0 +1,13 @@
+/* COLORS */
+
+:root {
+  /* neutral */
+  --color-neutral-900: #172339;
+  --color-neutral-500: #49566D;
+  --color-neutral-200: #F3EDE7;
+  --color-neutral-0: #FAF8F6;
+  /* purple */
+  --color-purple: #CB30E3;
+  /* gradient */
+  --gradiant-light: linear-gradient(135deg, #A060FF 0%, #CB30E3 49.21%, #FFA84E 100%);
+}

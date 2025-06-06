@@ -1,0 +1,71 @@
+/* IMPORT */
+
+@font-face {
+  font-family: 'Epilogue';
+  src: url('../font/Epilogue-Regular.woff') format('woff');
+}
+
+* {
+  font-family: 'Epilogue';
+}
+
+/* HEADING */
+
+h1 {
+  font-size: 72px;
+  line-height: 110%;
+  letter-spacing: -1px;
+}
+
+h2 {
+  font-size: 48px;
+  line-height: 120%;
+  letter-spacing: -0.5px;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 160%;
+  letter-spacing: 0.11px;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 160%;
+  letter-spacing: -0.18px;
+}
+
+h5 {
+  font-size: 18px;
+  line-height: 160%;
+  letter-spacing: 0.1px;
+}
+
+/* PARAGRAPH */
+
+/* SPECIALS */
+
+.bold {
+  font-weight: bold;
+}
+
+/* TABLET */
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 56px;
+    line-height: 110%;
+    letter-spacing: -0.78px;
+  }
+}
+
+/* MOBILE */
+
+@media (max-width: 375px) {
+  h1 {
+    font-size: 38px;
+    line-height: 110%;
+    letter-spacing: -0.53px;
+  }
+}
