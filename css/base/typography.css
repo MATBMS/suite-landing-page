@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: 'Epilogue';
-  src: url('../font/Epilogue-Regular.woff') format('woff');
+  src: url('../../font/Epilogue.ttf') format('woff');
 }
 
 * {
@@ -15,6 +15,10 @@ h1 {
   font-size: 72px;
   line-height: 110%;
   letter-spacing: -1px;
+}
+
+h1 span {
+  font-weight: bold;
 }
 
 h2 {
@@ -36,13 +40,22 @@ h4 {
   letter-spacing: -0.18px;
 }
 
-h5 {
+/* PARAGRAPH */
+
+p {
   font-size: 18px;
   line-height: 160%;
   letter-spacing: 0.1px;
 }
 
-/* PARAGRAPH */
+/* LINK */
+
+a {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 150%;
+  letter-spacing: -0.16px;
+}
 
 /* SPECIALS */
 
