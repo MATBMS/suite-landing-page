@@ -134,6 +134,10 @@ header {
     margin-top: 16px;
   }
 
+  .fun-facts {
+    gap: 15px;
+  }
+
   .hero-img {
     display: none;
   }
