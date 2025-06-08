@@ -29,27 +29,17 @@
       </div>
       <picture class="hero-img">
         <!-- Mobile WebP -->
-        <source 
-          srcset="./img/image-hero-landscape.webp 1x, ./img/image-hero-landscape@2x.webp 2x" 
-          type="image/webp" 
+        <source srcset="./img/image-hero-landscape.webp 1x, ./img/image-hero-landscape@2x.webp 2x" type="image/webp"
           media="(max-width: 375px)">
         <!-- Mobile PNG -->
-        <source 
-          srcset="./img/image-hero-landscape.png 1x, ./img/image-hero-landscape@2x.png 2x" 
-          type="image/png" 
+        <source srcset="./img/image-hero-landscape.png 1x, ./img/image-hero-landscape@2x.png 2x" type="image/png"
           media="(max-width: 375px)">
         <!-- Desktop WebP -->
-        <source 
-          srcset="./img/image-hero-portrait.webp 1x, ./img/image-hero-portrait@2x.webp 2x" 
-          type="image/webp">
+        <source srcset="./img/image-hero-portrait.webp 1x, ./img/image-hero-portrait@2x.webp 2x" type="image/webp">
         <!-- Desktop PNG -->
-        <source 
-          srcset="./img/image-hero-portrait.png 1x, ./img/image-hero-portrait@2x.png 2x" 
-          type="image/png">
-        <img 
-          src="./img/image-hero-portrait.png" 
-          srcset="./img/image-hero-portrait.png 1x, ./img/image-hero-portrait@2x.png 2x" 
-          alt="hero image">
+        <source srcset="./img/image-hero-portrait.png 1x, ./img/image-hero-portrait@2x.png 2x" type="image/png">
+        <img src="./img/image-hero-portrait.png"
+          srcset="./img/image-hero-portrait.png 1x, ./img/image-hero-portrait@2x.png 2x" alt="hero image">
       </picture>
       <div class="fun-facts">
         <div class="fun-fact">
@@ -66,22 +56,40 @@
         </div>
       </div>
     </header>
-    <!-- 
- 
-
-
-
-  It just works.
-
-  “I really like how it is an all-in-one solution that handle many of 
-  the tasks that you would normally need separate tools to do the same 
-  job. This thing is a miracle worker.”
-
-  Jeremy Robinson
-  CMO, Fylo
-
-  Copyright - Suite -->
-
+    <main>
+      <section id="testimonial">
+        <div class="testimonial-background">
+        </div>
+        <picture class="testimonial-img">
+          <!-- Mobile WebP -->
+          <source srcset="./img/image-jeremy-small.webp 1x, ./img/image-jeremy-small@2x.webp 2x" type="image/webp"
+            media="(max-width: 375px)">
+          <!-- Mobile PNG -->
+          <source srcset="./img/image-jeremy-small.png 1x, ./img/image-jeremy-small@2x.png 2x" type="image/png"
+            media="(max-width: 375px)">
+          <!-- Desktop WebP -->
+          <source srcset="./img/image-jeremy-large.webp 1x, ./img/image-jeremy-large@2x.webp 2x" type="image/webp">
+          <!-- Desktop PNG -->
+          <source srcset="./img/image-jeremy-large.png 1x, ./img/image-jeremy-large@2x.png 2x" type="image/png">
+          <img src="./img/image-hero-portrait.png"
+            srcset="./img/image-hero-portrait.png 1x, ./img/image-hero-portrait@2x.png 2x" alt="testimonial image">
+        </picture>
+        <img src="./img/pattern-curved-line-2.svg" alt="curve line" class="testimonial-curve-line">
+        <div class="testimonial-content">
+          <p class="testimonial-tile">It just <span>works.</span></p>
+          <p class="testimonial-quote">
+            “I really like how it is an all-in-one solution that handle many of
+            the tasks that you would normally need separate tools to do the same
+            job. This thing is a miracle worker.”
+          </p>
+          <p class="testimonial-name">Jeremy Robinson</p>
+          <p class="testimonial-job">CMO, Fylo</p>
+        </div>
+        <div class="footer-background">
+        </div>
+      </section>
+    </main>
+    <!-- Copyright - Suite -->
   </body>
 
 </html>
