@@ -62,7 +62,7 @@ header {
 /* FUN FACTS */
 
 .fun-facts {
-  width: calc(190px / 1440 * 100vw);
+  width: calc(190 / 1440 * 100vw);
   grid-column: 5 / 6;
   grid-row: 4 / 5;
   justify-self: right;
@@ -121,5 +121,70 @@ header {
   .fun-fact {
     width: 192px;
     text-align: center;
+  }
+}
+
+@media (max-width: 650px) {
+  .hero-content {
+    grid-column: 2 / -2;
+    gap: 24px;
+  }
+
+  .hero-content a {
+    margin-top: 16px;
+  }
+
+  .hero-img {
+    display: none;
+  }
+}
+
+/* MOBILE */
+
+@media (max-width: 375px) {
+  header {
+    grid-template-columns: 1fr calc((359 - 16) / 375 * 100vw) 1fr;
+    grid-template-rows: 76px calc(140px - 76px) calc(435px - 140px) calc(500px - 435px) calc(740px - 500px) calc(800px - 740px) calc(1140px - 800px) calc(1240px - 1140px);
+  }
+
+  .navbar,
+  .header-curve-line,
+  .hero-content,
+  .hero-img,
+  .fun-facts {
+    grid-column: 2 / -2;
+  }
+
+  .header-curve-line {
+    grid-row: 2 / 3;
+    width: 35%;
+    align-self: flex-end;
+    margin-right: 15%;
+    margin-bottom: 2%;
+  }
+
+  .hero-content {
+    grid-row: 3 / 4;
+    gap: 24px;
+  }
+
+  .hero-img {
+    grid-row: 5 / 6;
+    display: block;
+  }
+
+  .hero-content a {
+    margin-top: 16px;
+  }
+
+  .fun-facts {
+    grid-row: 7/ 8;
+    flex-direction: column;
+    height: 100%;
+    gap: 40px;
+  }
+
+  .fun-fact {
+    width: 100%;
   }
 }
