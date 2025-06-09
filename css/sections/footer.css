@@ -1,0 +1,28 @@
+footer {
+  display: grid;
+  grid-template-columns: 1fr calc(1105 / 1440 * 100vw) 1fr;
+  background-color: var(--color-neutral-200);
+}
+
+.footer-content {
+  grid-column: 2 / span 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.copyright {
+  color: var(--color-neutral-500);
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+}
