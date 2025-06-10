@@ -9,9 +9,19 @@
   background-color: var(--color-neutral-0);
 }
 
+.btn-light:hover {
+  color: var(--color-neutral-0);
+  background-color: var(--color-neutral-900);
+}
+
 .btn-dark {
   color: var(--color-neutral-0);
   background-color: var(--color-neutral-900);
+}
+
+.btn-dark:hover {
+  border-color: 1px solid var(--gradiant-light);
+  background: var(--gradiant-light);
 }
 
 /* MOBILE */
